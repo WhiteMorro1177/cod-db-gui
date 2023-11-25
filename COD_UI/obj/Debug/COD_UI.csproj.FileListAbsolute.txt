@@ -1,0 +1,10 @@
+C:\Users\jackf\source\repos\COD_UI\COD_UI\bin\Debug\COD_UI.exe.config
+C:\Users\jackf\source\repos\COD_UI\COD_UI\bin\Debug\COD_UI.exe
+C:\Users\jackf\source\repos\COD_UI\COD_UI\bin\Debug\COD_UI.pdb
+C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.csproj.AssemblyReference.cache
+C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.Form1.resources
+C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.Properties.Resources.resources
+C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.csproj.GenerateResource.cache
+C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.csproj.CoreCompileInputs.cache
+C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.exe
+C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.pdb
