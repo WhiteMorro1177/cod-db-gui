@@ -8,3 +8,14 @@ C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.csproj.GenerateResour
 C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.csproj.CoreCompileInputs.cache
 C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.exe
 C:\Users\jackf\source\repos\COD_UI\COD_UI\obj\Debug\COD_UI.pdb
+D:\Visual Studio Projects\cod-db-gui\COD_UI\obj\Debug\COD_UI.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\cod-db-gui\COD_UI\obj\Debug\COD_UI.Properties.Resources.resources
+D:\Visual Studio Projects\cod-db-gui\COD_UI\obj\Debug\COD_UI.csproj.GenerateResource.cache
+D:\Visual Studio Projects\cod-db-gui\COD_UI\obj\Debug\COD_UI.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\cod-db-gui\COD_UI\obj\Debug\COD_UI.exe
+D:\Visual Studio Projects\cod-db-gui\COD_UI\obj\Debug\COD_UI.pdb
+D:\Visual Studio Projects\cod-db-gui\COD_UI\obj\Debug\COD_UI.Form1.resources
+D:\Visual Studio Projects\cod-db-gui\COD_UI\obj\Debug\COD_UI.ContractForm.resources
+D:\Visual Studio Projects\cod-db-gui\COD_UI\bin\Debug\COD_UI.exe.config
+D:\Visual Studio Projects\cod-db-gui\COD_UI\bin\Debug\COD_UI.exe
+D:\Visual Studio Projects\cod-db-gui\COD_UI\bin\Debug\COD_UI.pdb

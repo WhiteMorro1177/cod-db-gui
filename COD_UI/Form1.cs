@@ -18,23 +18,45 @@ namespace COD_UI
 		}
 
 		// styling
-		private void tbUsername_Enter(object sender, EventArgs e) => tbUsername.Text = string.Empty;
-		private void tbPassword_Enter(object sender, EventArgs e) => tbPassword.Text = string.Empty;
+		private void tbUsername_Enter(object sender, EventArgs e)
+		{
+			if (tbUsername.Text == Data.TB_USERNAME_DEFAULT_VALUE) tbUsername.Text = string.Empty;
+		}
+		private void tbPassword_Enter(object sender, EventArgs e)
+		{
+			if (tbPassword.Text == Data.TB_PASSWORD_DEFAULT_VALUE) tbPassword.Text = string.Empty;
+		}
 		
 
-		private void tbUsername_Leave(object sender, EventArgs e) => tbUsername.Text = "Enter your username";
-		private void tbPassword_Leave(object sender, EventArgs e) => tbPassword.Text = "Enter your password";
+		private void tbUsername_Leave(object sender, EventArgs e)
+		{
+			if (tbUsername.Text.Trim(' ') == string.Empty) tbUsername.Text = Data.TB_USERNAME_DEFAULT_VALUE;
+		}
+		private void tbPassword_Leave(object sender, EventArgs e)
+		{
+			if (tbPassword.Text.Trim(' ') == string.Empty) tbPassword.Text = Data.TB_PASSWORD_DEFAULT_VALUE;
+		}
+
 
 		// click listener
 		private void btnLogin_Click(object sender, EventArgs e)
 		{
 			// connect to db
-			// check auth
 
-			string token = "token";
+			// check auth
+			//// switch (requestResult) {
+			////	case "admin": LoadAdminForm();
+			////	case "manager": LoadManagerForm();
+			////	case "analytic": LoadAnalyticForm();
+			//// }
 
 			// load main form
-			ClientForm mf = new ClientForm(token);
+		}
+
+		private void btnContinueAsClient_Click(object sender, EventArgs e)
+		{
+			Visible = false;
+			new ContractForm(this).Show();
 		}
 	}
 }
