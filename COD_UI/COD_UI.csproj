@@ -95,7 +95,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlertDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlertDialog.Designer.cs">
+      <DependentUpon>AlertDialog.cs</DependentUpon>
+    </Compile>
     <Compile Include="Data.cs" />
+    <Compile Include="DbConnector.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,6 +117,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlertDialog.resx">
+      <DependentUpon>AlertDialog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

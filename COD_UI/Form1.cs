@@ -18,24 +18,12 @@ namespace COD_UI
 		}
 
 		// styling
-		private void tbUsername_Enter(object sender, EventArgs e)
-		{
-			if (tbUsername.Text == Data.TB_USERNAME_DEFAULT_VALUE) tbUsername.Text = string.Empty;
-		}
-		private void tbPassword_Enter(object sender, EventArgs e)
-		{
-			if (tbPassword.Text == Data.TB_PASSWORD_DEFAULT_VALUE) tbPassword.Text = string.Empty;
-		}
+		private void tbUsername_Enter(object sender, EventArgs e) { if (tbUsername.Text == Data.TB_USERNAME_DEFAULT_VALUE) tbUsername.Text = string.Empty; }
+		private void tbPassword_Enter(object sender, EventArgs e) { if (tbPassword.Text == Data.TB_PASSWORD_DEFAULT_VALUE) tbPassword.Text = string.Empty; }
 		
 
-		private void tbUsername_Leave(object sender, EventArgs e)
-		{
-			if (tbUsername.Text.Trim(' ') == string.Empty) tbUsername.Text = Data.TB_USERNAME_DEFAULT_VALUE;
-		}
-		private void tbPassword_Leave(object sender, EventArgs e)
-		{
-			if (tbPassword.Text.Trim(' ') == string.Empty) tbPassword.Text = Data.TB_PASSWORD_DEFAULT_VALUE;
-		}
+		private void tbUsername_Leave(object sender, EventArgs e) { if (tbUsername.Text.Trim(' ') == string.Empty) tbUsername.Text = Data.TB_USERNAME_DEFAULT_VALUE; }
+		private void tbPassword_Leave(object sender, EventArgs e) { if (tbPassword.Text.Trim(' ') == string.Empty) tbPassword.Text = Data.TB_PASSWORD_DEFAULT_VALUE; }
 
 
 		// click listener

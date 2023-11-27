@@ -17,8 +17,11 @@ namespace COD_UI
 
 		// window settings
 		public const int WINDOW_WIDTH_DEFAULT = 448;
-		public const int WINDOW_WIDTH_EXTENDED = 658;
+		public const int WINDOW_WIDTH_EXTENDED = 758;
 
 		public const int RESULT_SPLITTER_DISTANCE = 434;
+
+		// connection settings
+
 	}
 }
